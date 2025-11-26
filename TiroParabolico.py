@@ -143,3 +143,6 @@ def main():
 # EJECUTAR PROGRAMA
 if __name__ == "__main__":
   main()
+
+# ! Aclaración importante
+# El trabajo se pensó como si el objeto se lanzara en un espacio donde no hay un "techo" o un "piso". Es decir, el objeto se puede lanzar desde tan alto como se quiera, y puede caer tan bajo como quiera (en el tiempo dado). Por ese motivo hay pruebas en las que la posición en el eje y da negativa.
