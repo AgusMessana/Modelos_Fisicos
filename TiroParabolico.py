@@ -11,20 +11,20 @@ import numpy as np
 # ? Para nuestro modelo tomaremos al eje y como eje vertical.
 # ? Sistema de coordenadas:
 # - Eje Y positivo apunta hacia arriba.
-# - La gravedad actúa hacia abajo, por eso se usa: y = y0 + vy0*t - 0.5*g*t**2
+# - La gravedad actúa hacia abajo, por eso se usa: y = y0 + vy0*t - 0.5*g*t^2
 # - No es necesario cambiar g según suba o baje: g siempre es positiva en módulo.
 
 # Fórmulas a utilizar (tomadas del libro Sears and Zemansky's University Physics with Modern Physics 14th Edition, página 76).
 # Se obtienen aplicando la ecuación vectorial de movimiento con aceleración constante r(t) = r0 + v0*t + 1/2*a*t^2.
 
 # Eje X (MRU):
-# x(t) = x0 + vx0 * t
+# x(t) = x0 + vx0*t
 
 # Eje Y (MRUV - Gravedad):
-# y(t) = y0 + vy0 * t - 0.5 * g * t^2
+# y(t) = y0 + vy0*t - 0.5*g*t^2
 
 # Eje Z (MRU - Análogo a X):
-# z(t) = z0 + vz0 * t
+# z(t) = z0 + vz0*t
 
 # ! Aclaración: 
 # en dicha página no se hace mención del movimiento en el eje z, así que lo razonamos de la siguiente manera:
