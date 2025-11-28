@@ -133,7 +133,12 @@ def main():
     y0 = float(input("Posición inicial y0 (m): "))
     z0 = float(input("Posición inicial z0 (m): "))
 
+    # Nota: si el usuario cuenta con la magnitud v0 y los ángulos de lanzamiento, puede calcular las componentes usando las fórmulas:
+    # vx0 = v0 * cos(theta) * cos(phi)
+    # vy0 = v0 * sin(theta)
+    # vz0 = v0 * cos(theta) * sin(phi)
     # Velocidades iniciales
+  
     vx0 = float(input("Velocidad inicial vx0 (m/s): "))
     vy0 = float(input("Velocidad inicial vy0 (m/s): "))
     vz0 = float(input("Velocidad inicial vz0 (m/s): "))
